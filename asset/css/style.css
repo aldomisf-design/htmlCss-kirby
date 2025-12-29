@@ -1,0 +1,36 @@
+/*
+reset basico y configuracion general
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+Encabezado de sitio
+*/
+.site-header .topbar{
+    background-color: #af4c95;
+    color: white;
+    padding: 14px 0;
+    text-align: center;
+}
+.site-header .subnav{
+    background-color: #f4ebee;
+    display: flex;
+    justify-content: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #af4c95;
+}
+.site-header .subnav a{
+    color: #4a004e;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: text-decoration 0.3s ease;
+}
+.site-header .subnav a:hover{
+    text-decoration: underline;
+}
