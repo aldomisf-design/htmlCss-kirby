@@ -34,3 +34,12 @@ Encabezado de sitio
 .site-header .subnav a:hover{
     text-decoration: underline;
 }
+/*
+Imagen de Kirby centrada
+*/
+.kirbysmash{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
